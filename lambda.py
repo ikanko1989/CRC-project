@@ -17,7 +17,11 @@ def lambda_handler(event, context):
 
     # Serialize the response body as JSON
     body = {"views": counter}
-    return {"statusCode": 200, "body": json.dumps(body)}
+    return {
+        "headers": {"Access-Control-Allow-Origin": "*"},
+        "statusCode": 200,
+        "body": json.dumps(body),
+    }
 
 
 """""" """""" """""" """""" """""" """""" """""" """""" """""" """""" """""" """""" ""
