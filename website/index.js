@@ -6,6 +6,7 @@ function downloadAsPDF() {
 
 }
 
+
 // This is JS code for visitor counter update
 const counter = document.querySelector(".counter-number");
 async function updateCounter() {

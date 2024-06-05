@@ -26,7 +26,6 @@ def lambda_handler(event, context):
 
 """""" """""" """""" """""" """""" """""" """""" """""" """""" """""" """""" """""" ""
 
-
 """
 "some examples of lambda;"
 "Lambda function for dynamoDB interaction"
