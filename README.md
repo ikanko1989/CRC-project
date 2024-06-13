@@ -3,12 +3,13 @@
 ![AWS_CRC_picture](https://github.com/ikanko1989/CRC-project/assets/139227790/ef67abb9-296b-4cb4-be0f-b07b597835b3)
 
 ## Description
-Before starting this project I have managed to complete AWS Cloud Practitioner certification exam.
-I successfully passed the exam on 19.01.2024.
+Before starting this project I have managed to complete [AWS Cloud Practitioner certification](https://aws.amazon.com/certification/certified-cloud-practitioner/) exam.
+I [successfully passed](https://www.credly.com/badges/a0318fce-8d31-49c3-8a02-803d7c082def/public_url) the exam on 19.01.2024.
 
-The AWS Cloud Resume Challenge involves creating a static resume website (in my case it is my CV) that is hosted on AWS and integrated with various AWS services to provide dynamic functionality, such as a visitor counter. 
+The [AWS Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/) involves creating a static resume website (in my case it is my CV) that is hosted on AWS and integrated with various AWS services to provide dynamic functionality, such as a visitor counter. 
 
-Here’s a detailed explanation of how it works, broken down into its main components:      
+Here’s a detailed explanation of how it works, broken down into its main components:
+------------------------------------------------------------------------------------
 __1. Frontend: Static Website(my personal CV)__  
 •	_HTML/CSS/JavaScript_: Created a static website using HTML, CSS, and JavaScript to display website(CV).    
 •	_Hosting on S3_: The static files are uploaded to an Amazon S3 bucket, which is configured to host the website. S3 provides a cost-effective, highly available solution for serving static content.
