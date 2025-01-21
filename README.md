@@ -3,8 +3,10 @@
 ![AWS_CRC_picture](https://github.com/ikanko1989/CRC-project/assets/139227790/ef67abb9-296b-4cb4-be0f-b07b597835b3)
 
 ## Description
-Before starting this project I have managed to complete [AWS Cloud Practitioner certification](https://aws.amazon.com/certification/certified-cloud-practitioner/) exam.
-I [successfully passed](https://www.credly.com/badges/a0318fce-8d31-49c3-8a02-803d7c082def/public_url) the exam on 19.01.2024.
+Before starting this project I have managed to complete [AWS Cloud Practitioner certification](https://aws.amazon.com/certification/certified-cloud-practitioner/) exam.  
+I [successfully passed](https://www.credly.com/badges/a0318fce-8d31-49c3-8a02-803d7c082def/public_url) the exam on 19.01.2024.   
+After completing this project did [AWS Certified Solutions Architect - Associate certification](https://aws.amazon.com/certification/certified-solutions-architect-associate/) exam.  
+I [successfully passed](https://www.credly.com/earner/earned/badge/472e26b2-bbcb-4c07-84ed-3be5ca93d35e) the exam on 12.01.2025.
 
 The [AWS Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/) involves creating a static resume website (in my case it is my CV) that is hosted on AWS and integrated with various AWS services to provide dynamic functionality, such as a visitor counter. 
 
@@ -17,7 +19,7 @@ __1. Frontend: Static Website(my personal CV)__
 
 __2. Custom Domain and HTTPS__    
 •	_Domain Name_: Used Amazon Route 53 to manage domain name. If you don’t have a domain, you can register one through Route 53 or another registrar.    
-•	_CloudFront Distribution_: Set up an AWS CloudFront distribution to cache and serve my website content globally with low latency.CloudFront also provides HTTPS support.  
+•	_CloudFront Distribution_: Set up an AWS CloudFront distribution to cache and serve my website content globally with low latency. CloudFront also provides HTTPS support.  
 •	_SSL/TLS Certificate_: Used AWS Certificate Manager (ACM) to provision an SSL/TLS certificate for my domain, enabling HTTPS to secure the site.
 
 
@@ -27,8 +29,8 @@ __3. Backend: Visitor Counter__
 •	_DynamoDB_: AWS DynamoDB is a fully managed NoSQL database service used to store the visitor count. The Lambda function will read from and write to this database.
 
 __4. CI/CD Pipeline__   
-•	_GitHub Repository_: Hosted my code in a GitHub repository. The repository contains your static website files, and Lambda function code.  
-•	_GitHub Actions_: Set up GitHub Actions to create a CI/CD pipeline. This pipeline automates the process of building, testing, and deploying your code. For   example, it can automatically deploy updates to your S3 bucket and Lambda function when changes are pushed to the repository.
+•	_GitHub Repository_: Hosted my code in a GitHub repository. The repository contains static website files, and Lambda function code.  
+•	_GitHub Actions_: Set up GitHub Actions to create a CI/CD pipeline. This pipeline automates the process of building, testing, and deploying your code. For example, it can automatically deploy updates to your S3 bucket and Lambda function when changes are pushed to the repository.
 
 __5. Infrastructure as Code (IaC) –> Planning to do to as a future improvement__    
 •	_AWS CloudFormation or Terraform_: Use IaC tools to define and deploy your AWS resources. This ensures your infrastructure is reproducible and manageable.  
